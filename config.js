@@ -10,7 +10,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://heyjimmy.co',
+        url: 'http://heyjimmy.co/',
         mail: {
             transport: 'SMTP',
             options: {
