@@ -19,6 +19,7 @@ bower_components
 *.iml
 *.sublime-*
 projectFilesBackup
+backups
 
 .DS_Store
 
