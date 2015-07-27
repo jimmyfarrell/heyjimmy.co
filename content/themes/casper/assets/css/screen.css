@@ -1276,11 +1276,11 @@ body:not(.post-template) .post-title {
     box-sizing: border-box;
     display: block;
     position: absolute;
-    top: -85px;
+    top: -110px;
     left: 50%;
-    margin-left: -40px;
-    width: 80px;
-    height: 80px;
+    margin-left: -55px;
+    width: 110px;
+    height: 110px;
     border-radius: 100%;
     overflow: hidden;
     padding: 6px;
