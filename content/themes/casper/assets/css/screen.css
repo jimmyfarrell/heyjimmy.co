@@ -1764,12 +1764,9 @@ body:not(.post-template) .post-title {
 
     .author-image-header {
         top: -60px;
-        left: 57%;
-    }
-
-    .author-image-header .img {
-        width: 50%;
-        height: 50%;
+        left: 58%;
+        width: 10%;
+        height: 10%;
     }
 
 }
