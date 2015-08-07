@@ -1763,7 +1763,7 @@ body:not(.post-template) .post-title {
     }
 
     .author-image-header {
-        top: -90px;
+        top: -50px;
         left: 55%;
         width: 60px;
         height: 60px;
