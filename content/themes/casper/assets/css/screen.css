@@ -1763,8 +1763,8 @@ body:not(.post-template) .post-title {
     }
 
     .author-image-header {
-        top: -50px;
-        left: 55%;
+        top: -60px;
+        left: 57%;
         width: 60px;
         height: 60px;
     }
