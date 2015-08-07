@@ -1763,10 +1763,7 @@ body:not(.post-template) .post-title {
     }
 
     .author-image-header {
-        top: -60px;
-        left: 45vw;
-        width: 10vw;
-        height: 10vw;
+        display: none;
     }
 
 }
