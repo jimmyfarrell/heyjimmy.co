@@ -1762,6 +1762,12 @@ body:not(.post-template) .post-title {
         border-left: none;
     }
 
+    .author-image-header {
+        top: -80px;
+        width: 75px;
+        height: 75px;
+    }
+
 }
 
 
