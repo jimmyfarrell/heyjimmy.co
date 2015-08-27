@@ -1299,6 +1299,10 @@ body:not(.post-template) .post-title {
     border-radius: 100%;
 }
 
+.archive-template .author-image-header {
+    display: none;
+}
+
 .author-image .img {
     position: relative;
     display: block;
