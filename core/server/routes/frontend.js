@@ -81,6 +81,11 @@ frontendRoutes = function frontendRoutes(middleware) {
     // Default
     router.get('*', frontend.single);
 
+    // Custom
+    router.get('/resume', function(req, res, next) {
+        res.redirect('https://drive.google.com/file/d/0B9_8T-qumjcmdkV1ZWtiTWdxQWs/view?usp=sharing');
+    });
+
     return router;
 };
 
