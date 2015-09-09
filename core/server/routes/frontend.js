@@ -78,13 +78,13 @@ frontendRoutes = function frontendRoutes(middleware) {
     // Post Live Preview
     router.get('/' + routeKeywords.preview + '/:uuid', frontend.preview);
 
-    // Default
-    router.get('*', frontend.single);
-
     // Custom
     router.get('/resume', function(req, res, next) {
         res.redirect('https://drive.google.com/file/d/0B9_8T-qumjcmdkV1ZWtiTWdxQWs/view?usp=sharing');
     });
+
+    // Default
+    router.get('*', frontend.single);
 
     return router;
 };
